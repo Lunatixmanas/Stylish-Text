@@ -24,12 +24,12 @@ async def start(c, m):
     # MoTech Start Buttons
     buttons = [
         [
-            InlineKeyboardButton('👨‍💼Creater', url=f"https://t.me/{owner_username}"),
-            InlineKeyboardButton('📢Updates', url="t.me/mo_tech_yt"),
-            InlineKeyboardButton('🤖Bot List', url="https://t.me/Mo_Tech_YT/176")
+            InlineKeyboardButton('👨‍💼CREATOR', url=f"https://t.me/{owner_username}"),
+            InlineKeyboardButton('📢BOTS CHANNEL', url="https://t.me/KOT_BOTS"),
+            InlineKeyboardButton('🤖SUPPORT GROUP', url="https://t.me/KOT_REPORS")
         ],
         [
-            InlineKeyboardButton('🖥️How To Use🖥️', url="https://youtu.be/9b9uWNyuk9M")
+            InlineKeyboardButton('SOURCE CODE', url="https://t.me/KOT_SOURCE_CODE")
         ]
     ]
     await m.reply_text(
@@ -62,11 +62,11 @@ async def about(c, m):
     buttons = [
         [
             InlineKeyboardButton('👨‍💼Creater', url=f"https://t.me/{owner_username}"),
-            InlineKeyboardButton('📢Updates', url="t.me/mo_tech_yt"),
-            InlineKeyboardButton('🤖Bot List', url="https://t.me/Mo_Tech_YT/176")
+            InlineKeyboardButton('📢BOTS CHANNEL', url="https://t.me/KOT_BOTS"),
+            InlineKeyboardButton('🤖SUPPORT GROUP', url="https://t.me/KOT_REPORs")
         ],
         [
-            InlineKeyboardButton('🖥️How To Use🖥️', url="https://youtu.be/9b9uWNyuk9M")
+            InlineKeyboardButton('SOURCE CODE', url="https://t.me/KOT_SOURCE_CODE")
         ]
     ]
     await m.reply_text(
